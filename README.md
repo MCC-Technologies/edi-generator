@@ -1,36 +1,52 @@
-# GenerateEDI
-A C# tool to generate EDI (Electronic Data Interchange) files programmatically.
+# EDI File Generator
 
-## 🧾 Overview
-This repository provides utilities to produce standard EDI formats (e.g., X12) from structured input data. Designed for integration with internal systems requiring EDI file output.
+A lightweight tool for generating EDI (Electronic Data Interchange) files for testing and development purposes.
 
-## ✨ Features
-- EDI segment building
-- Flexible data mapping
-- Configurable output
-- Support for common standards (extendable)
+## 🚀 Purpose
 
-## 🛠 Built With
-- C# (.NET 6+)
+This tool is designed to help developers and QA engineers quickly generate EDI files without needing full system integrations.
 
-## 🚀 Getting Started
-### Clone
+It is ideal for:
 
-```bash
-git clone https://github.com/melscodingcave/GenerateEDI.git
-cd GenerateEDI
-```
-### Build & Run
-```
-dotnet build
-dotnet run
-```
+* Testing EDI parsers
+* Simulating integrations
+* Generating sample data
+* Validating workflows
 
-## 📌 Usage
-Add JSON or CSV input data, then run the generator to produce .edi output.
+## 🧰 Features (Planned / In Progress)
 
-## 🧪 Testing
-Unit tests are included using your chosen test framework (xUnit/NUnit).
+* Generate EDI files based on configurable inputs
+* Support for common EDI formats (e.g., X12)
+* Customizable segments and values
+* Quick test data generation
 
-## 📄 License
-MIT License.
+## 🛠️ Usage
+
+> *Documentation coming soon.*
+
+The goal is to allow users to define basic inputs and generate valid EDI files for testing scenarios.
+
+## 📌 Example Use Cases
+
+* QA testing for EDI ingestion systems
+* Development environments without live integrations
+* Mock data generation for pipelines
+
+## ⚠️ Disclaimer
+
+This tool is intended for **testing and development purposes only**.
+
+It is provided **"as is"**, without warranty of any kind.
+Generated files should be validated before use in production systems.
+
+## 🤝 Contributing
+
+Contributions and feedback are welcome as the project evolves.
+
+## 🏷️ License
+
+MIT License — see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+Created by **MCC Technologies, LLC**
